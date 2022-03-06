@@ -15,8 +15,12 @@ public class Game {
     private Team awayTeam;
     private Goal[] goals;
     
+    public Game(Team homeTeam, Team awayTeam) {
+        this.homeTeam = homeTeam;
+        this.awayTeam = awayTeam;
+    }
+    
     public void playGame(int maxGoals) {
-        /* Practice 8-2, Step 1e. Add code to initialize the array currGame.goals to a random size */
         int numberOfGoals = (int)(Math.random() * maxGoals + 1);
         Goal[] theGoals = new Goal[numberOfGoals];
         this.setGoals(theGoals);

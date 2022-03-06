@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Soccer;
-
 /**
  *
  * @author Conrad
@@ -11,6 +10,12 @@ package Soccer;
 public class Player {
     
     private String playerName;
+    
+    public Player(String playerName) {
+        this.playerName = playerName;
+    }
+    
+    public Player() {}
 
     /**
      * @return the playerName
