@@ -4,12 +4,13 @@
  */
 package utility;
 
+import Soccer.Goal;
 import java.util.Arrays;
 import soccer.*;
 
 /**
  *
- * @author ksomervi
+ * @author Conrad
  */
 public class GameUtils {
 

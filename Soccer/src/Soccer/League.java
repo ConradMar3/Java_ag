@@ -6,7 +6,7 @@ package Soccer;
 
 /**
  *
- * @author maria
+ * @author Conrad
  */
 public class League {
 

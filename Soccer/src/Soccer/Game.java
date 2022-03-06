@@ -7,7 +7,7 @@ import utility.GameUtils;
 
 /**
  *
- * @author Administrator
+ * @author Conrad
  */
 public class Game {
     

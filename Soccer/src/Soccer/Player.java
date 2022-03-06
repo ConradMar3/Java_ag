@@ -6,7 +6,7 @@ package Soccer;
 
 /**
  *
- * @author Administrator
+ * @author Conrad
  */
 public class Player {
     
