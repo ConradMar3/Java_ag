@@ -3,14 +3,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Soccer;
+
 /**
  *
- * @author Conrad
+ * @author Administrator
  */
 public class Team {
     
     private String teamName;
     private Player[] playerArray;
+    private int pointsTotal;
+    private int goalsTotal;
+    
+    public void incGoalsTotal(int goals){
+        this.setGoalsTotal(this.getGoalsTotal() + goals);
+    }
+
+    public void incPointsTotal(int points){
+        this.pointsTotal += points;
+    }
     
     public Team(String teamName) {
         this.teamName = teamName;
@@ -50,5 +61,35 @@ public class Team {
     public void setPlayerArray(Player[] playerArray) {
         this.playerArray = playerArray;
     }
+
+    /**
+     * @return the pointsTotal
+     */
+    public int getPointsTotal() {
+        return pointsTotal;
+    }
+
+    /**
+     * @param pointsTotal the pointsTotal to set
+     */
+    public void setPointsTotal(int pointsTotal) {
+        this.pointsTotal = pointsTotal;
+    }
+
+    /**
+     * @return the goalsTotal
+     */
+    public int getGoalsTotal() {
+        return goalsTotal;
+    }
+
+    /**
+     * @param goalsTotal the goalsTotal to set
+     */
+    public void setGoalsTotal(int goalsTotal) {
+        this.goalsTotal = goalsTotal;
+    }
     
 }
+
+

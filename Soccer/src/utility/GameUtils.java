@@ -3,12 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package utility;
+
 import java.util.Arrays;
 import Soccer.*;
 
 /**
  *
- * @author Conrad
+ * @author ksomervi
  */
 public class GameUtils {
 
